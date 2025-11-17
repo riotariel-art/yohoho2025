@@ -28,6 +28,8 @@
 		"cost": 0,
 		"isNationalWonder": true,
 		"uniques": [
+			"Can only be built <in [Capital] cities> <hidden from users>"
+			"Only available <in cities with a [MiniCake Main]> <hidden from users>",
 			"Can be purchased with [Gold] [in capital]",
 			"Moves to new capital when capital changes<hidden from users>",
 			"Only available <when espionage is enabled>",
@@ -68,7 +70,7 @@
 			"Only available <in cities with a [Espionage Liaison Office]> <hidden from users>",
 			"Only available <when espionage is enabled>",
 			"Can be purchased with [Gold] [in all cities]",
-			"Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy",
+			"Gain an extra spy", "Gain an extra spy", "Gain an extra spy",
 			"Destroyed when the city is captured <hidden from users>",
 			"Only available <for [Human player] Civilizations> <hidden from users>"
 		]
@@ -97,6 +99,7 @@
 		"name": "AtheismTower",
 		"cost": 50,
 		"uniques": [
+			"Can only be built <in [Capital] cities> <hidden from users>"
 			"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
 			"[-1 Faith, +1 Science] per every [1] [Faith]",
 			"[-500000]% Natural religion spread [in all cities]",
@@ -400,8 +403,8 @@
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [Palace]><hidden from users>",
 //				"Automatically built in all cities where it is buildable<hidden from users>",
-				"Unavailable <hidden from users>",
-//				"Unbuildable <hidden from users>",
+//				"Unavailable <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
@@ -422,8 +425,8 @@
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [Palace]><hidden from users>",
 //				"Automatically built in all cities where it is buildable<hidden from users>",
-				"Unavailable <hidden from users>",
-//				"Unbuildable <hidden from users>",
+//				"Unavailable <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
@@ -456,8 +459,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-
-    			"[{All}] units gain the [Interger888] promotion",
+				"[All] units gain the [Integer888] promotion",
 
 				"Can only be built <in [Capital] cities> <hidden from users>",
 				"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
@@ -507,14 +509,14 @@
 			"[{Fighter} {Military}] units gain the [Morale] promotion", 
 			"[{Bomber} {Military}] units gain the [Morale] promotion", 
 /*
-            "[{non-air} {Military}] units gain the [Great Generals I] promotion",
+			"[{non-air} {Military}] units gain the [Great Generals I] promotion",
 			"[{Fighter} {Military}] units gain the [Great Generals I] promotion",
 			"[{Bomber} {Military}] units gain the [Great Generals I] promotion",
 			"[{non-air} {Military}] units gain the [Great Generals II] promotion",
 			"[{Fighter} {Military}] units gain the [Great Generals II] promotion",
 			"[{Bomber} {Military}] units gain the [Great Generals II] promotion",
 */
-            "[{non-air} {Military}] units gain the [Haka War Dance] promotion",
+			"[{non-air} {Military}] units gain the [Haka War Dance] promotion",
 			"[{Land} {Military}] units gain the [Enhanced Vision] promotion",
 			"[{Water} {Military}] units gain the [Better Wayfinding] promotion",
 			"[{Fighter} {Military}] units gain the [Improved Radar] promotion",
@@ -1951,13 +1953,6 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
-
-			"[-10000 Gold] per every [10000] [Gold]<every [1] turns>",
-			"[-500 Science] per every [500] [Science]<every [1] turns>",
-			"[-500 Culture] per every [500] [Culture]<every [1] turns>",
-			"[-500 Faith] per every [500] [Faith]<every [1] turns>",
-			"[-500 Happiness] per every [500] [Happiness]<every [1] turns>",
-
 			"May not generate great prophet equivalents naturally",
 			"Enables embarkation for land units <before the [Classical era]>",
 			"Indicates the capital city"
@@ -3800,7 +3795,7 @@
 
 	{
 		"name": "MiniCake Free Normal Building",
-		"requiredBuilding": "MiniCake Main",
+//		"requiredBuilding": "MiniCake Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -3884,7 +3879,7 @@
 	},
 	{
 		"name": "MiniCake Free Religious Building",
-		"requiredBuilding": "MiniCake Main",
+//		"requiredBuilding": "MiniCake Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
@@ -3999,9 +3994,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Gain a free [Manhattan Project] [in this city]",
+				"Gain a free [Manhattan Project] [in this city]",
 
-		    	"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -4017,9 +4012,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Gain a free [Apollo Program] [in this city]",
+				"Gain a free [Apollo Program] [in this city]",
 
-		    	"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -4035,9 +4030,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Gain a free [Utopia Project] [in this city]",
+				"Gain a free [Utopia Project] [in this city]",
 
-		    	"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
@@ -4053,9 +4048,9 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		    	"Gain a free [United Nations] [in this city]",
+				"Gain a free [United Nations] [in this city]",
 
-		    	"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
