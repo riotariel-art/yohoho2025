@@ -459,12 +459,14 @@
 
     			"[{All}] units gain the [Interger888] promotion",
 
+				"Can only be built <in [Capital] cities> <hidden from users>",
 				"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
+
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 				"Unavailable <in cities with a [MiniCake BuffUnit Basic]><hidden from users>",
 //				"Automatically built in all cities where it is buildable<hidden from users>",
-				"Unavailable <hidden from users>",
-//				"Unbuildable <hidden from users>",
+//				"Unavailable <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
@@ -484,6 +486,8 @@
 		"uniques": [
 
 			"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
+
+			"Can only be built <in [Capital] cities> <hidden from users>",
 			"Unavailable <in cities with a [MiniCake BuffUnit Ulti]><hidden from users>",
 
 			"[{non-air} {Military}] units gain the [Home Sweet Home] promotion",
@@ -532,8 +536,8 @@
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [Palace]><hidden from users>",
 //				"Automatically built in all cities where it is buildable<hidden from users>",
-				"Unavailable <hidden from users>",
-//				"Unbuildable <hidden from users>",
+//				"Unavailable <hidden from users>",
+				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
