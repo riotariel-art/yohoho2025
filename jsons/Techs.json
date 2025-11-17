@@ -36,6 +36,7 @@ xsa tech inhibitor
 				"row": 11,
 				"quote": "'Cheat tech",
 				"uniques": [
+					"Enables embarkation for land units",
 					"[-999999]% weight to this choice for AI decisions",
 					"Only available <for [Human player] Civilizations> <hidden from users>"]
 			},
@@ -44,6 +45,7 @@ xsa tech inhibitor
 				"row": 10,
 				"quote": "'Cheat tech",
 				"uniques": [
+					"Enables embarkation for land units",
 					"[-999999]% weight to this choice for AI decisions",
 					"Only available <before discovering [Agriculture]>"]
 			},
@@ -761,9 +763,9 @@ xsa tech inhibitor
 	{
 		"columnNumber": 3,
 		"era": "Ancient era",
-		"techCost": 99999999,
+		"techCost": 9999999999,
 		"buildingCost": 100,
-		"wonderCost": 99999999,
+		"wonderCost": 9999999999,
 		"techs": [
 			{
 				"name": "1 Ancient Era Tech Inhibit",
@@ -798,17 +800,17 @@ xsa tech inhibitor
 					"Discover [Masonry]",
 					"Discover [Bronze Working]",
 
-                    "[+100]% weight to this choice for AI decisions"
-                    ]
+//					"[+100]% weight to this choice for AI decisions"
+					]
 			}
 		]
 	},
 	{
 		"columnNumber": 6,
 		"era": "Classical era",
-		"techCost": 99999999,
+		"techCost": 9999999999,
 		"buildingCost": 100,
-		"wonderCost": 99999999,
+		"wonderCost": 9999999999,
 		"techs": [
 			{
 				"name": "2 Classical Era Tech Inhibit",
@@ -823,7 +825,8 @@ xsa tech inhibitor
 					"Drama and Poetry",
 					"Currency",
 					"Engineering",
-					"Iron Working"
+					"Iron Working",
+					"1 Ancient Era Tech Inhibit"
 				],
 				"quote": "'Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -852,17 +855,17 @@ xsa tech inhibitor
 					"Discover [Engineering]",
 					"Discover [Iron Working]",
 
-                    "[+100]% weight to this choice for AI decisions"
-                    ]
+//					"[+100]% weight to this choice for AI decisions"
+					]
 			}
 		]
 	},
 	{
 		"columnNumber": 9,
 		"era": "Medieval era",
-		"techCost": 99999999,
+		"techCost": 9999999999,
 		"buildingCost": 100,
-		"wonderCost": 99999999,
+		"wonderCost": 9999999999,
 		"techs": [
 			{
 				"name": "3 Medieval Era Tech Inhibit",
@@ -878,7 +881,8 @@ xsa tech inhibitor
 					"Chivalry",
 					"Machinery",
 					"Physics",
-					"Steel"
+					"Steel",
+					"2 Classical Era Tech Inhibit"
 				],
 				"quote": "'Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -919,17 +923,17 @@ xsa tech inhibitor
 					"Discover [Physics]",
 					"Discover [Steel]",
 
-                    "[+100]% weight to this choice for AI decisions"
-                    ]
+//					"[+100]% weight to this choice for AI decisions"
+					]
 			}
 		]
 	},
 	{
 		"columnNumber": 12,
 		"era": "Renaissance era",
-		"techCost": 99999999,
+		"techCost": 9999999999,
 		"buildingCost": 100,
-		"wonderCost": 99999999,
+		"wonderCost": 9999999999,
 		"techs": [
 			{
 				"name": "4 Renaissance Era Tech Inhibit",
@@ -945,7 +949,8 @@ xsa tech inhibitor
 					"Architecture",
 					"Economics",
 					"Metallurgy",
-					"Chemistry"
+					"Chemistry",
+					"3 Medieval Era Tech Inhibit"
 				],
 				"quote": "'Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -998,17 +1003,17 @@ xsa tech inhibitor
 					"Discover [Metallurgy]",
 					"Discover [Chemistry]",
 
-                    "[+100]% weight to this choice for AI decisions"
-                    ]
+//					"[+100]% weight to this choice for AI decisions"
+					]
 			}
 		]
 	},
 	{
 		"columnNumber": 15,
 		"era": "Industrial era",
-		"techCost": 99999999,
+		"techCost": 9999999999,
 		"buildingCost": 100,
-		"wonderCost": 99999999,
+		"wonderCost": 9999999999,
 		"techs": [
 			{
 				"name": "5 Industrial Era Tech Inhibit",
@@ -1024,7 +1029,8 @@ xsa tech inhibitor
 					"Biology",
 					"Electricity",
 					"Steam Power",
-					"Dynamite"
+					"Dynamite",
+					"4 Renaissance Era Tech Inhibit"
 				],
 				"quote": "'Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -1077,7 +1083,7 @@ xsa tech inhibitor
 					"Discover [Metallurgy]",
 					"Discover [Chemistry]",
 //era5
-                    "Discover [Archaeology]",
+					"Discover [Archaeology]",
 					"Discover [Scientific Theory]",
 					"Discover [Industrialization]",
 					"Discover [Rifling]",
@@ -1089,17 +1095,17 @@ xsa tech inhibitor
 					"Discover [Steam Power]",
 					"Discover [Dynamite]",
 
-                    "[+100]% weight to this choice for AI decisions"
-                    ]
-            }
+//					"[+100]% weight to this choice for AI decisions"
+					]
+			}
 		]
 	},
 	{
 		"columnNumber": 18,
 		"era": "Modern era",
-		"techCost": 99999999,
+		"techCost": 9999999999,
 		"buildingCost": 100,
-		"wonderCost": 99999999,
+		"wonderCost": 9999999999,
 		"techs": [
 			{
 				"name": "6 Modern Era Tech Inhibit",
@@ -1114,7 +1120,8 @@ xsa tech inhibitor
 					"Plastics",
 					"Electronics",
 					"Ballistics",
-					"Combustion"
+					"Combustion",
+					"5 Industrial Era Tech Inhibit"
 				],
 				"quote": "'Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -1167,7 +1174,7 @@ xsa tech inhibitor
 					"Discover [Metallurgy]",
 					"Discover [Chemistry]",
 //era5
-                    "Discover [Archaeology]",
+					"Discover [Archaeology]",
 					"Discover [Scientific Theory]",
 					"Discover [Industrialization]",
 					"Discover [Rifling]",
@@ -1190,17 +1197,17 @@ xsa tech inhibitor
 					"Discover [Ballistics]",
 					"Discover [Combustion]",
 
-                    "[+100]% weight to this choice for AI decisions"
-                    ]
+//					"[+100]% weight to this choice for AI decisions"
+					]
 			}
 		]
 	},
 	{
 		"columnNumber": 21,
 		"era": "Atomic era",
-		"techCost": 99999999,
+		"techCost": 9999999999,
 		"buildingCost": 100,
-		"wonderCost": 99999999,
+		"wonderCost": 9999999999,
 		"techs": [
 			{
 				"name": "7 Atomic Era Tech Inhibit",
@@ -1214,7 +1221,8 @@ xsa tech inhibitor
 					"Ecology",
 					"Nuclear Fission",
 					"Rocketry",
-					"Computers"
+					"Computers",
+					"6 Modern Era Tech Inhibit"
 				],
 				"quote": "'Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -1267,7 +1275,7 @@ xsa tech inhibitor
 					"Discover [Metallurgy]",
 					"Discover [Chemistry]",
 //era5
-                    "Discover [Archaeology]",
+					"Discover [Archaeology]",
 					"Discover [Scientific Theory]",
 					"Discover [Industrialization]",
 					"Discover [Rifling]",
@@ -1300,17 +1308,17 @@ xsa tech inhibitor
 					"Discover [Rocketry]",
 					"Discover [Computers]",
 
-                    "[+100]% weight to this choice for AI decisions"
-                    ]
+//					"[+100]% weight to this choice for AI decisions"
+					]
 			}
 		]
 	},
 	{
 		"columnNumber": 24,
 		"era": "Information era",
-		"techCost": 99999999,
+		"techCost": 9999999999,
 		"buildingCost": 100,
-		"wonderCost": 99999999,
+		"wonderCost": 9999999999,
 		"techs": [
 			{
 				"name": "8 Information Era Tech Inhibit",
@@ -1327,7 +1335,9 @@ xsa tech inhibitor
 					"Particle Physics",
 					"Nuclear Fission",
 					"Nanotechnology",
-					"Stealth"
+					"Stealth",
+
+					"7 Atomic Era Tech Inhibit",
 				],
 				"quote": "'Tech Inhibitor, Slower tech upgrades",
 				"uniques": [
@@ -1380,7 +1390,7 @@ xsa tech inhibitor
 					"Discover [Metallurgy]",
 					"Discover [Chemistry]",
 //era5
-                    "Discover [Archaeology]",
+					"Discover [Archaeology]",
 					"Discover [Scientific Theory]",
 					"Discover [Industrialization]",
 					"Discover [Rifling]",
@@ -1426,8 +1436,8 @@ xsa tech inhibitor
 					"Discover [Nanotechnology]",
 					"Discover [Stealth]",
 
-				    "[+100]% weight to this choice for AI decisions"
-				    ]
+//					"[+100]% weight to this choice for AI decisions"
+					]
 			}
 		]
 	}
