@@ -30,49 +30,83 @@
 
 
   {
-  	"name": "victory888",
+  	"name": "Victory888",
 //	"uniqueTo": "Asgarheim",
   	"uniques": [
-      "Only available <for [Human player] Civilizations> <hidden from users>",
-      "[-100000]% weight to this choice for AI decisions",
-      "Unavailable <for [AI Player] Civilizations>",
-//	  "Only available <for [Asgarheim] Civilizations>",
-	  "[100]% chance to intercept air attacks",
-	  "[2] additional attacks per turn",
-	  "[0] Movement point cost to disembark",
-	  "[0] Movement point cost to embark",
-	  "[2] Sight",
-	  "All tiles cost 1 movement",
-	  "Can enter ice tiles",
-	  "Can move after attacking",
-	  "Can pass through impassable tiles",
-	  "Can perform Air Sweep",
-	  "Can see invisible [All] units",
-	  "Can see over obstacles",
-	  "Eliminates combat penalty for attacking across a coast",
-	  "Eliminates combat penalty for attacking over a river",
-//	  "Invisible to non-adjacent units",
-//	  "Invisible to others",
-	  "May attack when embarked",
-	  "May capture killed [All] units",
-	  "May enter foreign tiles without open borders",
-	  "May heal outside of friendly territory",
-	  "[+100] HP when healing <in [Foreign Land] tiles>",
-      "May Paradrop up to [10] tiles from inside friendly territory",
-	  "May travel on Water tiles without embarking",
-	  "Never appears as a Barbarian unit",
-	  "No damage penalty for wounded units",
-	  "No defensive terrain penalty",
-	  "No movement cost to pillage",
-	  "Ranged attacks may be performed over obstacles",
-	  "Uncapturable",
-	  "Unit will heal every turn, even if it performs an action",
-	  "Withdraws before melee combat <with [80]% chance>" ]
+		"Only available <for [Human player] Civilizations> <hidden from users>",
+		"[-100000]% weight to this choice for AI decisions",
+		"Unavailable <for [AI Player] Civilizations>",
+//		"Only available <for [Asgarheim] Civilizations>",
+		"[100]% chance to intercept air attacks",
+		"[2] additional attacks per turn",
+		"[0] Movement point cost to disembark",
+		"[0] Movement point cost to embark",
+		"[2] Sight",
+		"All tiles cost 1 movement",
+		"Can enter ice tiles",
+		"Can move after attacking",
+		"Can pass through impassable tiles",
+		"Can perform Air Sweep",
+		"Can see invisible [All] units",
+		"Can see over obstacles",
+		"Eliminates combat penalty for attacking across a coast",
+		"Eliminates combat penalty for attacking over a river",
+//		"Invisible to non-adjacent units",
+//		"Invisible to others",
+		"May attack when embarked",
+		"May capture killed [All] units",
+		"May enter foreign tiles without open borders",
+		"May heal outside of friendly territory",
+		"[+100] HP when healing <in [Foreign Land] tiles>",
+		"May Paradrop up to [10] tiles from inside friendly territory",
+		"May travel on Water tiles without embarking",
+		"Never appears as a Barbarian unit",
+		"No damage penalty for wounded units",
+		"No defensive terrain penalty",
+		"No movement cost to pillage",
+		"Ranged attacks may be performed over obstacles",
+		"Uncapturable",
+		"Unit will heal every turn, even if it performs an action",
+		"Withdraws before melee combat <with [80]% chance>" ]
   },
 
 
+  {
+  	"name": "Interger888",
+//	"uniqueTo": "Asgarheim",
+  	"uniques": [
 
-
+		"[+5000]% Strength <when defending> <when[Embarked]>",
+		"Only available <for [Human player] Civilizations> <hidden from users>",
+		"[-100000]% weight to this choice for AI decisions",
+		"Unavailable <for [AI Player] Civilizations>",
+		"[100]% chance to intercept air attacks",
+		"[2] additional attacks per turn",
+		"[0] Movement point cost to disembark",
+		"[0] Movement point cost to embark",
+		"[2] Sight",
+		"All tiles cost 1 movement",
+//		"Can enter ice tiles",
+		"Can see invisible [All] units",
+		"Can see over obstacles",
+		"Eliminates combat penalty for attacking across a coast",
+		"Eliminates combat penalty for attacking over a river",
+		"May attack when embarked",
+		"May capture killed [All] units",
+		"May enter foreign tiles without open borders",
+		"May heal outside of friendly territory",
+		"[+100] HP when healing <in [Foreign Land] tiles>",
+		"May Paradrop up to [12] tiles from inside friendly territory",
+		"May travel on Water tiles without embarking",
+		"Never appears as a Barbarian unit",
+		"No damage penalty for wounded units",
+		"No defensive terrain penalty",
+		"No movement cost to pillage",
+		"Ranged attacks may be performed over obstacles",
+		"Uncapturable",
+		"Unit will heal every turn, even if it performs an action",
+		"Withdraws before melee combat <with [80]% chance>" ]
+  },
 
 
 
@@ -94,52 +128,52 @@
   	"name": "Sons of the Aesir",
 //	"uniqueTo": "Asgarheim",
   	"uniques": [
-      "Only available <for [Human player] Civilizations> <hidden from users>",
-      "[-100000]% weight to this choice for AI decisions",
-//	  "Only available <for [Asgarheim] Civilizations>",
-	  "[100]% chance to intercept air attacks",
-	  "[5] additional attacks per turn",
-	  "[0] Movement point cost to disembark",
-	  "[0] Movement point cost to embark",
-//	  "[75] Sight",
-	  "All tiles cost 1 movement",
-	  "Can enter ice tiles",
-	  "Can move after attacking",
-	  "Can pass through impassable tiles",
-	  "Can perform Air Sweep",
-	  "Can see invisible [All] units",
-	  "Can see over obstacles",
-	  "Eliminates combat penalty for attacking across a coast",
-	  "Eliminates combat penalty for attacking over a river",
-	  "Invisible to non-adjacent units",
-	  "Invisible to others",
-	  "May attack when embarked",
-	  "May capture killed [All] units",
-	  "May enter foreign tiles without open borders",
-	  "May heal outside of friendly territory",
-	  "[+100] HP when healing <in [Foreign Land] tiles>",
-      "May Paradrop up to [10] tiles from inside friendly territory",
-	  "May travel on Water tiles without embarking",
-	  "Never appears as a Barbarian unit",
-	  "No damage penalty for wounded units",
-	  "No defensive terrain penalty",
-	  "No movement cost to pillage",
-	  "Ranged attacks may be performed over obstacles",
-	  "Uncapturable",
-	  "Unit will heal every turn, even if it performs an action",
-	  "Withdraws before melee combat <with [80]% chance>" ]
+		"Only available <for [Human player] Civilizations> <hidden from users>",
+		"[-100000]% weight to this choice for AI decisions",
+//		"Only available <for [Asgarheim] Civilizations>",
+		"[100]% chance to intercept air attacks",
+		"[5] additional attacks per turn",
+		"[0] Movement point cost to disembark",
+		"[0] Movement point cost to embark",
+//		"[75] Sight",
+		"All tiles cost 1 movement",
+		"Can enter ice tiles",
+		"Can move after attacking",
+		"Can pass through impassable tiles",
+		"Can perform Air Sweep",
+		"Can see invisible [All] units",
+		"Can see over obstacles",
+		"Eliminates combat penalty for attacking across a coast",
+		"Eliminates combat penalty for attacking over a river",
+		"Invisible to non-adjacent units",
+		"Invisible to others",
+		"May attack when embarked",
+		"May capture killed [All] units",
+		"May enter foreign tiles without open borders",
+		"May heal outside of friendly territory",
+		"[+100] HP when healing <in [Foreign Land] tiles>",
+		"May Paradrop up to [10] tiles from inside friendly territory",
+		"May travel on Water tiles without embarking",
+		"Never appears as a Barbarian unit",
+		"No damage penalty for wounded units",
+		"No defensive terrain penalty",
+		"No movement cost to pillage",
+		"Ranged attacks may be performed over obstacles",
+		"Uncapturable",
+		"Unit will heal every turn, even if it performs an action",
+		"Withdraws before melee combat <with [80]% chance>" ]
   },
 //xsa//scout xp
     {
-        "name": "Exploration",
-        "uniques": [
-            "Only available <for [Human player] Civilizations> <hidden from users>",
-            "[-100000]% weight to this choice for AI decisions",
-            "[This Unit] gains [1] XP <with [20]% chance> <upon discovering a [All] tile> <hidden from users>",
+			"name": "Exploration",
+			"uniques": [
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+				"[-100000]% weight to this choice for AI decisions",
+				"[This Unit] gains [1] XP <with [20]% chance> <upon discovering a [All] tile> <hidden from users>",
 			"Comment [This Unit gains [1] XP with a 20% chance upon discovering a tile]",
-            "[This Unit] gains [10] XP <upon discovering a [Natural Wonder] tile>"
-        ],
-        "unitTypes": ["Scout"]
+				"[This Unit] gains [10] XP <upon discovering a [Natural Wonder] tile>"
+			],
+			"unitTypes": ["Scout"]
     },
     
     
@@ -149,7 +183,7 @@
     {
 		"name": "Mastery of War",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"[+110]% Strength <when attacking>",
 			"[+130]% Strength <when defending>",
 			"[1] additional attacks per turn",
@@ -160,7 +194,7 @@
 	{
 		"name": "Air Superiority",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"[+110]% Strength <when attacking>",
 			"Damage taken from interception reduced by [90]%",
 			"[1] additional attacks per turn"
@@ -170,7 +204,7 @@
 	{
 		"name": "Panacea's Gift",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"Heals [40] damage if it kills a unit",
 			"May heal outside of friendly territory",
 			"Unit will heal every turn, even if it performs an action",
@@ -181,7 +215,7 @@
 	{
 		"name": "Founder's Frontier",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"[+60]% Strength <when defending>",
 			"May heal outside of friendly territory",
 			"Unit will heal every turn, even if it performs an action"
@@ -191,7 +225,7 @@
 	{
 		"name": "Civilian Assistance",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"All adjacent units heal [+60] HP when healing",
 			"[+15]% Strength bonus for [Military] units within [3] tiles"
 		]
@@ -200,7 +234,7 @@
 	{
 		"name": "Enhanced Vision",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"[+3] Sight",
 			"[+3] Movement",
 			"+1 Sight <when [Embarked]>",
@@ -212,7 +246,7 @@
 	{
 		"name": "Better Wayfinding",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"[+5] Sight",
 			"[+1] Movement",
 			"Can see invisible [Submarine] units",
@@ -223,7 +257,7 @@
 	{
 		"name": "Improved Radar",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"[+4] Range",
 			"[+4] Sight",
 			"[+4] Sight", 
@@ -234,7 +268,7 @@
 	{
 		"name": "Brilliant Detonation",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"[+365]% Strength <when attacking>",
 			"Damage taken from interception reduced by [90]%",
 			"[+5] Range",
@@ -248,7 +282,7 @@
 	{
 		"name": "Capture Master",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"May capture killed [{non-air} {Military}] units",
 			"May capture killed [{Aircraft} {Military}] units"
 		]
@@ -257,7 +291,7 @@
 {
 		"name": "Adaptive Warfare", // only for Khan
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
 			"[+50]% Strength <during the [Ancient era]>",
 			"[+65]% Strength <during the [Classical era]>",
 			"[+75]% Strength <during the [Medieval era]>",
@@ -280,60 +314,60 @@
    { 
      "name": "Omnipotence",
      "uniques": [
-         "Only available <for [Human player] Civilizations> <hidden from users>",
-         "All adjacent units heal [+99] HP when healing",
-        "[+250]% XP gained from combat", 
+			 "Only available <for [Human player] Civilizations> <hidden from users>",
+			 "All adjacent units heal [+99] HP when healing",
+			"[+250]% XP gained from combat", 
 		"Can see over obstacles",
-        "Ranged attacks may be performed over obstacles",
-		"Can see invisible [All] units",//        "Can see invisible [All] units <with [999]% chance>", 
-        "No damage penalty for wounded units", 
-        "[+99999999]% Strength", 
-        "Uncapturable",
-        "Can move after attacking", 
-        "Heals [100] damage if it kills a unit",
-        "[+100] HP when healing", 
-        "Ignores terrain cost",
-        "Unit will heal every turn, even if it performs an action"]
+			"Ranged attacks may be performed over obstacles",
+		"Can see invisible [All] units",//			"Can see invisible [All] units <with [999]% chance>", 
+			"No damage penalty for wounded units", 
+			"[+99999999]% Strength", 
+			"Uncapturable",
+			"Can move after attacking", 
+			"Heals [100] damage if it kills a unit",
+			"[+100] HP when healing", 
+			"Ignores terrain cost",
+			"Unit will heal every turn, even if it performs an action"]
    },
    { 
      "name": "Pillage-cheat",
      "uniques": [
-        "Only available <for [Human player] Civilizations> <hidden from users>",
-        "[+100]% Health from pillaging tiles",
-        "No movement cost to pillage",
-        "[+100]% Yield from pillaging tiles"
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+			"[+100]% Health from pillaging tiles",
+			"No movement cost to pillage",
+			"[+100]% Yield from pillaging tiles"
      ]
    },
    {
      "name": "More Invulnerability",
      "uniques": [
-         "Only available <for [Human player] Civilizations> <hidden from users>",
-         "All adjacent units heal [+100] HP when healing",
-        "[+250]% XP gained from combat",
+			 "Only available <for [Human player] Civilizations> <hidden from users>",
+			 "All adjacent units heal [+100] HP when healing",
+			"[+250]% XP gained from combat",
 		"Can see over obstacles",
-        "Ranged attacks may be performed over obstacles", 
-        "Can see invisible [All] units", 
-        "No damage penalty for wounded units",
-        "Uncapturable",
-        "[+150]% Strength <when attacking>", 
-        "Can move after attacking",
-        "Heals [100] damage if it kills a unit", 
-        "[+100] HP when healing", 
-        "Ignores terrain cost",
-        "Unit will heal every turn, even if it performs an action"]
+			"Ranged attacks may be performed over obstacles", 
+			"Can see invisible [All] units", 
+			"No damage penalty for wounded units",
+			"Uncapturable",
+			"[+150]% Strength <when attacking>", 
+			"Can move after attacking",
+			"Heals [100] damage if it kills a unit", 
+			"[+100] HP when healing", 
+			"Ignores terrain cost",
+			"Unit will heal every turn, even if it performs an action"]
    },
    {
-      "name": "Slavery-888",
-      "uniques": [
+		"name": "Slavery-888",
+		"uniques": [
 		"Only available <for [Human player] Civilizations> <hidden from users>",
 		"May capture killed [All] units <with [999]% chance>",
 		 "Uncapturable"]
    },
    {
-      "name": "Knowledgeable"
-	   "uniques": [
-	       "Only available <for [Human player] Civilizations> <hidden from users>",
-	       "[666]% XP gained from combat"]
+		"name": "Knowledgeable"
+		 "uniques": [
+			 "Only available <for [Human player] Civilizations> <hidden from users>",
+			 "[666]% XP gained from combat"]
    }
    
    
@@ -351,16 +385,16 @@
     {
 		"name": "Great Admiral",
 		"uniques": [
-		   "Only available <for [Human player] Civilizations> <hidden from users>",
-		   "Double movement in [Coast]", 
-		    "Double movement in [Ocean]", 
-		    "Double movement in [Lakes]"]
+			 "Only available <for [Human player] Civilizations> <hidden from users>",
+			 "Double movement in [Coast]", 
+			  "Double movement in [Ocean]", 
+			  "Double movement in [Lakes]"]
 	},
     {
 		"name": "Ignore Zone of Control",
 		"uniques": [
-		    "Only available <for [Human player] Civilizations> <hidden from users>",
-		    "Ignores Zone of Control"]
+			  "Only available <for [Human player] Civilizations> <hidden from users>",
+			  "Ignores Zone of Control"]
 	},
 
 	
@@ -370,14 +404,14 @@
 	{
 		"name": "No Move",
 		"uniques": [
-		    "Cannot move"
-		    ],
+			  "Cannot move"
+			  ],
 	},
 	{
 		"name": "Totally Blind",
 		"uniques": [
-		    "No Sight"
-		    ],
+			  "No Sight"
+			  ],
 	}
   
 
