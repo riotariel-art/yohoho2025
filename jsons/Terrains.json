@@ -13,6 +13,6 @@
 			"Rough terrain",
 			"Has an elevation of [2] for visibility calculations",
 			"Units ending their turn on this terrain take [-50] damage",
-		],
-	},
+		]
+	}
 ]
