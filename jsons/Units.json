@@ -1,8 +1,8 @@
 [
-    
-    
-    
-    
+	
+	
+	
+	
  //xsa//adds requiredResource 
   
 	{
@@ -16,11 +16,11 @@
 		"requiredTech": "Telecommunications",
 	"requiredResource": "Uranium",//xsa//added requiredResource
 		"uniques": [
-		    "[+75]% Strength <when attacking>", 
-		    "Can only attack [Water] tiles", 
-		    "[+1] Sight", 
-		    "Can carry [2] [Missile] units", 
-		    "Never appears as a Barbarian unit"],
+			"[+75]% Strength <when attacking>", 
+			"Can only attack [Water] tiles", 
+			"[+1] Sight", 
+			"Can carry [2] [Missile] units", 
+			"Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
   
@@ -37,8 +37,8 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": [
-	  "Can pass through impassable tiles",					   //xsa//added hovering
-	  "May travel on Water tiles without embarking",			 //xsa//added hovering
+			"Can pass through impassable tiles",					   //xsa//added hovering
+			"May travel on Water tiles without embarking",			 //xsa//added hovering
 			"Eliminates combat penalty for attacking across a coast",  //xsa//added hovering
 			"Eliminates combat penalty for attacking over a river",	//xsa//added hovering
 			"[-50]% Strength <when fighting in [Water] tiles>",		//xsa//added hovering
@@ -64,12 +64,12 @@
 		"cost": 150,
 //		"requiredTech": "Advanced Ballistics",
 		"uniques": [
-		    
-	    	"Limited to [20] per Civilization"
+			
+			"Limited to [20] per Civilization"
 			"Never appears as a Barbarian unit",
 			"Only available <for [Human player] Civilizations> <hidden from users>",
-		    "[-100]% maintenance costs"
-		    ],
+			"[-100]% maintenance costs"
+			],
 		"attackSound": "missile"
 	},
 
@@ -197,7 +197,7 @@
 	  //xsa//added//airunit
   
 	{
-	    "name": "Zeppelin",
+		"name": "Zeppelin",
 		"unitType": "Helicopter",
 		"movement": 5,
 		"strength": 42,
@@ -261,12 +261,26 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-		    "Can build [Land] improvements on tiles", 
-		    "Automation is a primary action",
-		    "Limited to [2] per Civilization"
-		    ],
+			"Can build [Land] improvements on tiles", 
+			"Automation is a primary action",
+			"Limited to [2] per Civilization"
+			],
 		"cost": 70,
 		
+	},
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+			"May create improvements on water resources",
+			"Uncapturable", 
+			"Automation is a primary action",
+			"Limited to [2] per Civilization"
+		   ]
 	},
 	{
 		"name": "Settler",
@@ -274,7 +288,7 @@
 		"movement": 2,
 		"cost": 106,
 		"uniques": [
-		    "Limited to [3] per Civilization",
+			"Limited to [3] per Civilization",
 			"Founds a new city", 
 			"Excess Food converted to Production when under construction",
 			"Can move immediately once bought", 
@@ -293,10 +307,10 @@
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
-		    "Limited to [3] per Civilization",
-		    "May upgrade to [Archer] through ruins-like effects", 
-		    "Never appears as a Barbarian unit"
-		    ],
+			"Limited to [2] per Civilization",
+			"May upgrade to [Archer] through ruins-like effects", 
+			"Never appears as a Barbarian unit"
+			],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit",
 	},
@@ -304,9 +318,9 @@
 		"name": "Missionary",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Limited to [1] per Civilization",
-            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
-            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Limited to [1] per Civilization",
+			"Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+			"May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight", 
 			"Unbuildable", 
@@ -319,9 +333,9 @@
 		"name": "Inquisitor",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Prevents spreading of religion to the city it is next to",
+			"Prevents spreading of religion to the city it is next to",
 			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[+1] Sight", 
 			"Only available <when religion is enabled>", 
 			"Unbuildable", 
@@ -359,8 +373,8 @@
 		"name": "Great Artist",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Limited to [1] per Civilization",
-            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Limited to [1] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
 			"Great Person - [Culture]", 
 			"Can move immediately once bought", 
@@ -374,7 +388,7 @@
 		"name": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Limited to [1] per Civilization",
+			"Limited to [1] per Civilization",
 			"Can hurry technology research", 
 			"Can instantly construct a [Academy] improvement <by consuming this unit>", 
 			"Great Person - [Science]", 
@@ -389,7 +403,7 @@
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Limited to [1] per Civilization",
+			"Limited to [1] per Civilization",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
 			"Great Person - [Gold]", 
@@ -404,7 +418,7 @@
 		"name": "Great Engineer",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Limited to [1] per Civilization",
+			"Limited to [1] per Civilization",
 			"Can speed up construction of a building", 
 			"Can instantly construct a [Manufactory] improvement <by consuming this unit>", 
 			"Great Person - [Production]", 
@@ -419,9 +433,9 @@
 		"name": "Great Prophet",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Limited to [1] per Civilization",
+			"Limited to [1] per Civilization",
 			"Can instantly construct a [Holy site] improvement <by consuming this unit>", 
-            "Can Spread Religion <[4] times> <by consuming this unit>",
+			"Can Spread Religion <[4] times> <by consuming this unit>",
 			"Removes other religions when spreading religion", 
 			"May found a religion", 
 			"May enhance a religion", 
@@ -442,8 +456,8 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-		    "Limited to [1] per Civilization",
-            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Limited to [1] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+15] HP when healing", 
 			"[+15] HP when healing",
@@ -463,8 +477,8 @@
 		"replaces": "Great General",
 		"strength": 20,
 		"uniques": [
-		    "Limited to [1] per Civilization",
-            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			"Limited to [1] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
 			"[+35]% Strength bonus for [Military] units within [2] tiles", 
 			"All adjacent units heal [+30] HP when healing", 
 			"[+15] HP when healing", 
@@ -482,17 +496,17 @@
 		"name": "Great Admiral",
 		"unitType": "Civilian Water",
 		"uniques": [
-		    "Limited to [1] per Civilization",
-            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
-            // TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
-            "May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
-            "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Limited to [1] per Civilization",
+			"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+			// TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+			"May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"Can be earned through combat <for [Water] units>",
-            "Is part of Great Person group [Admiral]",
-            "Great Person - [War]", 
-            "Unbuildable", 
-            "Uncapturable"
-            ],
+			"Is part of Great Person group [Admiral]",
+			"Great Person - [War]", 
+			"Unbuildable", 
+			"Uncapturable"
+			],
 		"movement": 4
 	},
 	
@@ -531,7 +545,7 @@
 	
 	//xsa//sandboxer
 	
-		{
+	{
 		"name": "Sandbox Shelter",
 				"requiredBuilding": "MiniCake Sandboxer",
 		"unitType": "Sandboxer",
@@ -655,13 +669,13 @@
 				"requiredBuilding": "MiniCake UCheat",
 		"unitType": "Class S Great People",
 		"uniques": [ 
-	        "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+			"Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
 			"Empire enters a [50]-turn Golden Age <by consuming this unit>",
 			"[+667]% Strength bonus for [Military] units within [5] tiles",
 			"All adjacent units heal [+100] HP when healing", 
 			"[+100] HP when healing",
 			"Uncapturable",
-		 		"Only available <for [Human player] Civilizations> <hidden from users>",],
+			"Only available <for [Human player] Civilizations> <hidden from users>"],
 		"movement": 5
 			 "cost": 0
 			 "hurryCostModifier": 0
@@ -671,13 +685,13 @@
 				"requiredBuilding": "MiniCake UCheat",
 	 "unitType": "Class S Civilian",
 	 "uniques": [ 
-	        "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+			"Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
 			"Can be purchased for [0] [Gold] [in this city]",
 			"Can build [Land] improvements on tiles",
 			"Can build [Water] improvements on tiles",
 			"[-99]% construction time for [All] improvements",
 			"Uncapturable",
-		 		"Only available <for [Human player] Civilizations> <hidden from users>",
+		 		"Only available <for [Human player] Civilizations> <hidden from users>"
 			 ],
 	 "movement": 2
 			 "cost": 0
@@ -688,19 +702,19 @@
 				"requiredBuilding": "MiniCake UCheat",
 	 "unitType": "Class S Civilian",
 	 "uniques": [ 
-	         "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+			 "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
 			 "Religious Unit",
-    		 "May enhance a religion",
-    		 "May found a religion",
-    		 "Can Spread Religion",
-    		 "Removes other religions when spreading religion",
-    		 "May enter foreign tiles without open borders",
-    		 "Only available <when religion is enabled>",
-    		 "Takes your religion over the one in their birth city",
-    		 "Uncapturable",
-		 		"Only available <for [Human player] Civilizations> <hidden from users>",
+			 "May enhance a religion",
+			 "May found a religion",
+			 "Can Spread Religion",
+			 "Removes other religions when spreading religion",
+			 "May enter foreign tiles without open borders",
+			 "Only available <when religion is enabled>",
+			 "Takes your religion over the one in their birth city",
+			 "Uncapturable",
+		 		"Only available <for [Human player] Civilizations> <hidden from users>"
 			 ],
-	        "movement": 2
+			"movement": 2
 			 "cost": 0
 			 "hurryCostModifier": 0
  },
@@ -709,11 +723,11 @@
 				"requiredBuilding": "MiniCake UCheat",
 	 "unitType": "Class S Trooper",
 	 "uniques": [ 
-	     "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+		 "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
 		 "Can be purchased for [0] [Gold] [in this city]",
 		 "[Invulnerable Trooper] units gain the [More Invulnerability] promotion",
-	     "Uncapturable",
-		 		"Only available <for [Human player] Civilizations> <hidden from users>",
+		 "Uncapturable",
+		 		"Only available <for [Human player] Civilizations> <hidden from users>"
 			 ]
 	 "strength": 50
 	 "movement": 2
@@ -725,7 +739,7 @@
 				"requiredBuilding": "MiniCake UCheat",
 	 "unitType": "Class S Civilian",
 	 "uniques": [ 
-	     "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
+		 "Only available <in cities with a [MiniCake UCheat]> <hidden from users>",
 		 "Founds a new city",
 		 "Can be purchased for [0] [Gold] [in this city]",
 		 "Uncapturable",
@@ -771,9 +785,9 @@
 	"cost": 99,
 	"hurryCostModifier": 99,
 	"uniques": [
-	    "Automation is a primary action",
+		"Automation is a primary action",
 
-    	"May travel on Water tiles without embarking",			 //xsa//added hovering
+		"May travel on Water tiles without embarking",			 //xsa//added hovering
 		"Never appears as a Barbarian unit"
 		"May Paradrop to [All] tiles up to [20] tiles away", 
 		"Limited to [1] per Civilization <hidden from users>",
@@ -818,7 +832,7 @@
 			"Never appears as a Barbarian unit"
 			"Uncapturable",
 			"May Paradrop to [All] tiles up to [20] tiles away", 
-	    		"Limited to [1] per Civilization <hidden from users>",
+				"Limited to [1] per Civilization <hidden from users>",
   				"Turn this tile into a [Mountain Tunnel] tile <by consuming this unit> <in [Mountain] tiles> <in tiles adjacent to [Mountain] tiles> <costs [+300 Gold] stats> <after discovering [Dynamite]>",			   
   				"Can pass through impassable tiles <hidden from users>",
 		  		"Only available <for [Human player] Civilizations> <hidden from users>"
@@ -834,7 +848,7 @@
 			"Never appears as a Barbarian unit"
 			"Uncapturable",
 			"May Paradrop to [All] tiles up to [20] tiles away", 
-		        	"Limited to [1] per Civilization <hidden from users>",
+					"Limited to [1] per Civilization <hidden from users>",
 					"Can build [Water] improvements on tiles",
 					"Can enter ice tiles",
 					"Can build [Remove Ice] improvements on tiles",
