@@ -72,7 +72,7 @@
 
 
   {
-  	"name": "Interger888",
+  	"name": "Integer888",
 //	"uniqueTo": "Asgarheim",
   	"uniques": [
 
@@ -105,7 +105,7 @@
 		"Ranged attacks may be performed over obstacles",
 		"Uncapturable",
 		"Unit will heal every turn, even if it performs an action",
-		"Withdraws before melee combat <with [80]% chance>" ]
+		"Withdraws before melee combat <with [99]% chance>" ]
   },
 
 
@@ -120,10 +120,10 @@
 
 
 
-    
-    
-    
-    
+	
+	
+	
+	
   {
   	"name": "Sons of the Aesir",
 //	"uniqueTo": "Asgarheim",
@@ -164,7 +164,7 @@
 		"Withdraws before melee combat <with [80]% chance>" ]
   },
 //xsa//scout xp
-    {
+	{
 			"name": "Exploration",
 			"uniques": [
 				"Only available <for [Human player] Civilizations> <hidden from users>",
@@ -174,13 +174,13 @@
 				"[This Unit] gains [10] XP <upon discovering a [Natural Wonder] tile>"
 			],
 			"unitTypes": ["Scout"]
-    },
-    
-    
-    
-    //xsa//unhax
-    
-    {
+	},
+	
+	
+	
+	//xsa//unhax
+	
+	{
 		"name": "Mastery of War",
 		"uniques": [
 			  "Only available <for [Human player] Civilizations> <hidden from users>",
@@ -287,7 +287,7 @@
 			"May capture killed [{Aircraft} {Military}] units"
 		]
 	},
-    
+	
 {
 		"name": "Adaptive Warfare", // only for Khan
 		"uniques": [
@@ -312,8 +312,8 @@
 //xsa//utility cheat
 
    { 
-     "name": "Omnipotence",
-     "uniques": [
+	 "name": "Omnipotence",
+	 "uniques": [
 			 "Only available <for [Human player] Civilizations> <hidden from users>",
 			 "All adjacent units heal [+99] HP when healing",
 			"[+250]% XP gained from combat", 
@@ -330,17 +330,17 @@
 			"Unit will heal every turn, even if it performs an action"]
    },
    { 
-     "name": "Pillage-cheat",
-     "uniques": [
+	 "name": "Pillage-cheat",
+	 "uniques": [
 			"Only available <for [Human player] Civilizations> <hidden from users>",
 			"[+100]% Health from pillaging tiles",
 			"No movement cost to pillage",
 			"[+100]% Yield from pillaging tiles"
-     ]
+	 ]
    },
    {
-     "name": "More Invulnerability",
-     "uniques": [
+	 "name": "More Invulnerability",
+	 "uniques": [
 			 "Only available <for [Human player] Civilizations> <hidden from users>",
 			 "All adjacent units heal [+100] HP when healing",
 			"[+250]% XP gained from combat",
@@ -382,7 +382,7 @@
   
 
 //xsa//policy mod
-    {
+	{
 		"name": "Great Admiral",
 		"uniques": [
 			 "Only available <for [Human player] Civilizations> <hidden from users>",
@@ -390,7 +390,7 @@
 			  "Double movement in [Ocean]", 
 			  "Double movement in [Lakes]"]
 	},
-    {
+	{
 		"name": "Ignore Zone of Control",
 		"uniques": [
 			  "Only available <for [Human player] Civilizations> <hidden from users>",
