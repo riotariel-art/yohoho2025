@@ -37,7 +37,7 @@
 			"[-100]% maintenance cost for [Police Station] buildings [in all cities]",
 			"New spies start with [99] level(s)",
 					"Promotes all spies [99] time(s)",
-					"Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy",
+//					"Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy",
 			"Gain an extra spy <upon entering a new era>",
 			"Gain an extra spy <upon entering a new era>",
 			"[+100]% spy effectiveness [in all cities]",
@@ -48,9 +48,10 @@
 		]
 	},
 	{
-		"name": "Counter-Intelligence Liaison Office",
+		"name": "Espionage Liaison Office",
 		"cost": 0,
 		"uniques": [
+			"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
 			"Only available <when espionage is enabled>",
 			"Can be purchased with [Gold] [in all cities]",
 			"Gain an extra spy",
@@ -60,7 +61,18 @@
 		]
 	},
 
-
+	{
+		"name": "Espionage Recruitment Office",
+		"cost": 0,
+		"uniques": [
+			"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
+			"Only available <when espionage is enabled>",
+			"Can be purchased with [Gold] [in all cities]",
+			"Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy",
+			"Destroyed when the city is captured <hidden from users>",
+			"Only available <for [Human player] Civilizations> <hidden from users>"
+		]
+	},
 
 
 
@@ -85,13 +97,14 @@
 		"name": "AtheismTower",
 		"cost": 50,
 		"uniques": [
+			"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
 			"[-1 Faith, +1 Science] per every [1] [Faith]",
 			"[-500000]% Natural religion spread [in all cities]",
 			"[-500000]% Spread Religion Strength <for [All] units>",
 			"[-5000]% Unhappiness from [Population] [in all cities]",
 			"[+5000]% [Science] [in all cities]",
-			"Nullifies [Faith] [in all cities]",
 			"[+1 Culture] per every [1] [Faith]",
+			"Nullifies [Faith] [in all cities]",
 			"Cannot be purchased <after founding a Pantheon>",
 			"Can only be built <in [Capital] cities> <hidden from users>",
 			"Unbuildable <hidden from users>",
@@ -162,7 +175,6 @@
 			"[-20]% Unhappiness from [Population] [in all cities]",
 			"[+20]% [Happiness] [in all cities]",
 			
-
 //			"[All] units gain the [victory888] promotion",
 			
 			"Discover [xsaUnlocker]",
@@ -176,7 +188,7 @@
 
 
 	{
-		"name": "MiniCake Capital",
+		"name": "MiniCake Capitol",
 		"requiredBuilding": "MiniCake Main",
 		"cost": 1,
 		"production": 300,
@@ -196,16 +208,15 @@
 		"percentStatBonus": {"science": 100},
 		"percentStatBonus": {"food": 100},
 */
-	    		"Only available <for [Human player] Civilizations> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Only available <in cities with a [MiniCake Main]> <hidden from users>",
 				"Can only be built <in [Capital] cities> <hidden from users>",
 //				"Unbuildable <hidden from users>",
-    			"Gain control over [all] tiles in a [5]-tile radius",
-    			"[-50]% Unhappiness from [Population] [in this city]",
-    			"[+100]% [Happiness] [in this city]",
-                "Gain a free [MiniCake FakeResources] [in this city]",
-                "Gain a free [MiniCake BuffUnit] [in this city]",
-			    "Automatically built in all cities where it is buildable<hidden from users>",
+
+				"Gain a free [MiniCake Unlock] [in this city]",
+//				"Gain a free [MiniCake BuffUnit] [in this city]",
+
+				"Automatically built in all cities where it is buildable<hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
@@ -221,17 +232,16 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 				"uniques": [
-	    		"Only available <for [Human player] Civilizations> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Only available <after discovering [xsaUnlocker]> <hidden from users>",
 //				"Unavailable <if [Palace] is constructed><hidden from users>",
-//                "Only available [in this city] <if [Palace] is not constructed>",
+//				"Only available [in this city] <if [Palace] is not constructed>",
 				"Unavailable <in cities with a [Palace]><hidden from users>",
-			    "Automatically built in all cities where it is buildable<hidden from users>",
+				"Automatically built in all cities where it is buildable<hidden from users>",
 //				"Unbuildable <hidden from users>",
-		    	"Gain control over [all] tiles in a [5]-tile radius",
-    			"[-50]% Unhappiness from [Population] [in this city]",
-    			"[+100]% [Happiness] [in this city]",
-                "Gain a free [MiniCake FakeResources] [in this city]",
+
+				"Gain a free [MiniCake Unlock] [in this city]",
+
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
@@ -240,7 +250,30 @@
 	},
 	
 	
-	
+	{
+		"name": "MiniCake Unlock",
+		"requiredBuilding": "MiniCake Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+				"[-50]% Unhappiness from [Population] [in this city]",
+				"[+100]% [Happiness] [in this city]",
+
+				"Gain a free [MiniCake FakeResources] [in this city]",
+				"Gain a free [MiniCake Border Eater lv1] [in this city]",
+				
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Only available <in cities with a [MiniCake Main]> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes<hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},	
 	
 	
 	{
@@ -250,47 +283,145 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-	        	"Provides [5] [Cattle]",
-        		"Provides [5] [Sheep]",
-        		"Provides [5] [Deer]",
-        		"Provides [5] [Bananas]",
-        		"Provides [5] [Wheat]",
-        		"Provides [5] [Stone]",
-        		"Provides [5] [Fish]",
+				"Provides [5] [Cattle]",
+				"Provides [5] [Sheep]",
+				"Provides [5] [Deer]",
+				"Provides [5] [Bananas]",
+				"Provides [5] [Wheat]",
+				"Provides [5] [Stone]",
+				"Provides [5] [Fish]",
 
-        		"Provides [5] [Horses]",
-        		"Provides [5] [Iron]",
-        		"Provides [5] [Coal]",
-        		"Provides [5] [Oil]",
-		    	"Provides [5] [Aluminum]",
-        		"Provides [5] [Uranium]",
+				"Provides [5] [Horses]",
+				"Provides [5] [Iron]",
+				"Provides [5] [Coal]",
+				"Provides [5] [Oil]",
+				"Provides [5] [Aluminum]",
+				"Provides [5] [Uranium]",
 
-        		"Provides [5] [Furs]",
-        		"Provides [5] [Cotton]",
-        		"Provides [5] [Dyes]",
-        		"Provides [5] [Gems]",
-        		"Provides [5] [Gold Ore]",
-        		"Provides [5] [Silver]",
-        		"Provides [5] [Incense]",
-        		"Provides [5] [Ivory]",
-        		"Provides [5] [Silk]",
-        		"Provides [5] [Spices]",
-        		"Provides [5] [Wine]",
-        		"Provides [5] [Sugar]",
-        		"Provides [5] [Marble]",
-        		"Provides [5] [Whales]",
-        		"Provides [5] [Pearls]",
-        		"Provides [5] [Citrus]",
-        		"Provides [5] [Copper]",
-        		"Provides [5] [Crab]",
-        		"Provides [5] [Salt]",
-        		"Provides [5] [Truffles]",
+				"Provides [5] [Furs]",
+				"Provides [5] [Cotton]",
+				"Provides [5] [Dyes]",
+				"Provides [5] [Gems]",
+				"Provides [5] [Gold Ore]",
+				"Provides [5] [Silver]",
+				"Provides [5] [Incense]",
+				"Provides [5] [Ivory]",
+				"Provides [5] [Silk]",
+				"Provides [5] [Spices]",
+				"Provides [5] [Wine]",
+				"Provides [5] [Sugar]",
+				"Provides [5] [Marble]",
+				"Provides [5] [Whales]",
+				"Provides [5] [Pearls]",
+				"Provides [5] [Citrus]",
+				"Provides [5] [Copper]",
+				"Provides [5] [Crab]",
+				"Provides [5] [Salt]",
+				"Provides [5] [Truffles]",
 
-        		"Provides [5] [Jewelry]",
-        		"Provides [5] [Porcelain]",		
-		    	"Only available <for [Human player] Civilizations> <hidden from users>",
+				"Provides [5] [Jewelry]",
+				"Provides [5] [Porcelain]",		
+				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [Palace]><hidden from users>",
-//			    "Automatically built in all cities where it is buildable<hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <hidden from users>",
+//				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},
+
+
+	{
+		"name": "MiniCake Strategic Reserve",
+//		"requiredBuilding": "MiniCake Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+				"Only available <in cities with a [MiniCake FakeResources]> <hidden from users>",
+
+				"Provides [1000] [Horses]",
+				"Provides [1000] [Iron]",
+				"Provides [1000] [Coal]",
+				"Provides [1000] [Oil]",
+				"Provides [1000] [Aluminum]",
+				"Provides [1000] [Uranium]",
+
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <hidden from users>",
+//				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},
+
+
+	{
+		"name": "MiniCake Border Eater lv1",
+//		"requiredBuilding": "MiniCake Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+				"Gain control over [all] tiles in a [5]-tile radius",
+
+				"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <hidden from users>",
+//				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},
+	{
+		"name": "MiniCake Border Eater lv2",
+//		"requiredBuilding": "MiniCake Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+				"Gain control over [all] tiles in a [10]-tile radius",
+
+				"Only available <in cities with a [MiniCake Border Eater lv1]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <hidden from users>",
+//				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},
+	{
+		"name": "MiniCake Border Eater lv3",
+//		"requiredBuilding": "MiniCake Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+				"Gain control over [all] tiles in a [15]-tile radius",
+
+				"Only available <in cities with a [MiniCake Border Eater lv2]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+//				"Unavailable <in cities with a [Palace]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
 				"Unavailable <hidden from users>",
 //				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -306,13 +437,54 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 	{
-		"name": "MiniCake BuffUnit",
+		"name": "MiniCake BuffUnit Ulti",
 //		"requiredBuilding": "MiniCake Main",
 		"cost": 1,
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+
+    			"[{All}] units gain the [Interger888] promotion",
+
+				"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
+				"Only available <for [Human player] Civilizations> <hidden from users>",
+				"Unavailable <in cities with a [MiniCake BuffUnit Basic]><hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
+				"Unavailable <hidden from users>",
+//				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},
+
+
+
+
+	{
+		"name": "MiniCake BuffUnit Basic",
+//		"requiredBuilding": "MiniCake Main",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+
+			"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
+			"Unavailable <in cities with a [MiniCake BuffUnit Ulti]><hidden from users>",
 
 			"[{non-air} {Military}] units gain the [Home Sweet Home] promotion",
 			"[{Fighter} {Military}] units gain the [Home Sweet Home] promotion",
@@ -330,13 +502,15 @@
 			"[{non-air} {Military}] units gain the [Morale] promotion",
 			"[{Fighter} {Military}] units gain the [Morale] promotion", 
 			"[{Bomber} {Military}] units gain the [Morale] promotion", 
-			"[{non-air} {Military}] units gain the [Great Generals I] promotion",
+/*
+            "[{non-air} {Military}] units gain the [Great Generals I] promotion",
 			"[{Fighter} {Military}] units gain the [Great Generals I] promotion",
 			"[{Bomber} {Military}] units gain the [Great Generals I] promotion",
 			"[{non-air} {Military}] units gain the [Great Generals II] promotion",
 			"[{Fighter} {Military}] units gain the [Great Generals II] promotion",
 			"[{Bomber} {Military}] units gain the [Great Generals II] promotion",
-			"[{non-air} {Military}] units gain the [Haka War Dance] promotion",
+*/
+            "[{non-air} {Military}] units gain the [Haka War Dance] promotion",
 			"[{Land} {Military}] units gain the [Enhanced Vision] promotion",
 			"[{Water} {Military}] units gain the [Better Wayfinding] promotion",
 			"[{Fighter} {Military}] units gain the [Improved Radar] promotion",
@@ -354,9 +528,10 @@
 			"[{Bomber} {Military}] units gain the [Quick Study] promotion",
 			"[{non-air} {Military}] units gain the [Pictish Courage] promotion",
 
-		    	"Only available <for [Human player] Civilizations> <hidden from users>",
+
+				"Only available <for [Human player] Civilizations> <hidden from users>",
 //				"Unavailable <in cities with a [Palace]><hidden from users>",
-//			    "Automatically built in all cities where it is buildable<hidden from users>",
+//				"Automatically built in all cities where it is buildable<hidden from users>",
 				"Unavailable <hidden from users>",
 //				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -375,6 +550,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
+
 				"Only available <in cities with a [MiniCake Main]> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -955,8 +1131,8 @@
 		"Moves to new capital when capital changes<hidden from users>",
 		"Destroyed when the city is captured <hidden from users>",
 		"Only available <if [MiniCake True] is constructed>",
-	    "Unbuildable <hidden from users>" 
-	    ]
+		"Unbuildable <hidden from users>" 
+		]
 	},
 	{
 	"name": "True Culture",
@@ -1771,10 +1947,17 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": [
-            "May not generate great prophet equivalents naturally",
-		    "Enables embarkation for land units <before the [Classical era]>",
-		    "Indicates the capital city"
-		    ]
+
+			"[-5000 Gold      ] per every [10000] [Gold      ]<every [5] turns>",
+			"[-5000 Science   ] per every [10000] [Science   ]<every [5] turns>",
+			"[-5000 Culture   ] per every [10000] [Culture   ]<every [5] turns>",
+			"[-5000 Faith     ] per every [10000] [Faith     ]<every [5] turns>",
+			"[-5000 Happiness ] per every [10000] [Happiness ]<every [5] turns>",
+
+			"May not generate great prophet equivalents naturally",
+			"Enables embarkation for land units <before the [Classical era]>",
+			"Indicates the capital city"
+			]
 	},
 	{
 		"name": "Activate Challenges",
@@ -1792,7 +1975,7 @@
 				"Only available <before adopting [Honor]>",
 				"Only available <before turn number [5]>",
 				"Only available <in cities with a [Palace]>",
-	    		"Discover [Human Treats]",
+				"Discover [Human Treats]",
 		 		"Free Social Policy"
 		 	]
 	},
@@ -1836,9 +2019,9 @@
 		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
-		    "Provides [1] [Coal]",
-		    "Provides [1] [Oil]",
-		    "Only available <in cities with a [Stable]>"],
+			"Provides [1] [Coal]",
+			"Provides [1] [Oil]",
+			"Only available <in cities with a [Stable]>"],
 		"requiredBuilding": "Stable",
 		"requiredResource": "Horses",
 		"requiredTech": "Biology"
@@ -1848,9 +2031,9 @@
 		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
-		    "Provides [1] [Aluminum]",
-		    "Provides [1] [Uranium]",
-		    "Only available <in cities with a [Forge]>"],
+			"Provides [1] [Aluminum]",
+			"Provides [1] [Uranium]",
+			"Only available <in cities with a [Forge]>"],
 		"requiredBuilding": "Forge",
 		"requiredResource": "Iron",
 		"requiredTech": "Atomic Theory"
@@ -3686,7 +3869,7 @@
 				"Gain a free [Spaceship Factory] [in this city]",
 //				"Gain a free [Utopia Project] [in this city]",
 
-				"Only available <in cities with a [MiniCake Main]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
 				"Only available <for [Human player] Civilizations> <hidden from users>",
 				"Unbuildable <hidden from users>",
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
@@ -3702,7 +3885,7 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-				"Only available <in cities with a [MiniCake Main]> <hidden from users>",
+				"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
 				"Gain a free [Cathedral] [in this city]",
 				"Gain a free [Monastery] [in this city]",
 				"Gain a free [Mosque] [in this city]",
@@ -3734,7 +3917,7 @@
 			"Gain a free [Ironworks] [in this city]",
 			"Gain a free [Hermitage] [in this city]",
 			"Gain a free [National Intelligence Agency] [in this city]",
-			"Gain a free [Manhattan Project] [in this city]",
+//			"Gain a free [Manhattan Project] [in this city]",
 //			"Gain a free [Apollo Program] [in this city]",
 //			"Gain a free [Utopia Project] [in this city]",
 
@@ -3742,7 +3925,7 @@
 				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
 				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
-				"Moves to new capital when capital changes<hidden from users>",
+				"Moves to new capital when capital changes <hidden from users>",
 				"Destroyed when the city is captured <hidden from users>"
 			]
 	},	
@@ -3805,7 +3988,78 @@
 			]
 	},
 
+	{
+		"name": "MiniCake Free Manhattan Project",
+		"requiredBuilding": "MiniCake Free Wonder",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+		    	"Gain a free [Manhattan Project] [in this city]",
 
+		    	"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},
+	{
+		"name": "MiniCake Free Apollo Program",
+		"requiredBuilding": "MiniCake Free Wonder",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+		    	"Gain a free [Apollo Program] [in this city]",
+
+		    	"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},
+	{
+		"name": "MiniCake Free Utopia Project",
+		"requiredBuilding": "MiniCake Free Wonder",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+		    	"Gain a free [Utopia Project] [in this city]",
+
+		    	"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},
+	{
+		"name": "MiniCake Free United Nations",
+		"requiredBuilding": "MiniCake Free Wonder",
+		"cost": 1,
+		"hurryCostModifier": 1,
+		"maintenance": 0,
+		"uniques": [
+		    	"Gain a free [United Nations] [in this city]",
+
+		    	"Only available <in cities with a [MiniCake Free Wonder]> <hidden from users>",
+				"Unbuildable <hidden from users>",
+				"Can be purchased for [0] [Gold] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Faith] [in all cities] <hidden from users>",
+				"Can be purchased for [0] [Culture] [in all cities] <hidden from users>",
+				"Moves to new capital when capital changes <hidden from users>",
+				"Destroyed when the city is captured <hidden from users>"
+			]
+	},
 
 
 
@@ -4314,7 +4568,7 @@
 			"Discover [Metallurgy]",
 			"Discover [Chemistry]",
 //era5
-            "Discover [Archaeology]",
+			"Discover [Archaeology]",
 			"Discover [Scientific Theory]",
 			"Discover [Industrialization]",
 			"Discover [Rifling]",
@@ -4395,7 +4649,7 @@
 			"Discover [Metallurgy]",
 			"Discover [Chemistry]",
 //era5
-            "Discover [Archaeology]",
+			"Discover [Archaeology]",
 			"Discover [Scientific Theory]",
 			"Discover [Industrialization]",
 			"Discover [Rifling]",
@@ -4487,7 +4741,7 @@
 			"Discover [Metallurgy]",
 			"Discover [Chemistry]",
 //era5
-            "Discover [Archaeology]",
+			"Discover [Archaeology]",
 			"Discover [Scientific Theory]",
 			"Discover [Industrialization]",
 			"Discover [Rifling]",
@@ -4590,7 +4844,7 @@
 			"Discover [Metallurgy]",
 			"Discover [Chemistry]",
 //era5
-            "Discover [Archaeology]",
+			"Discover [Archaeology]",
 			"Discover [Scientific Theory]",
 			"Discover [Industrialization]",
 			"Discover [Rifling]",
@@ -5121,10 +5375,10 @@
 		"hurryCostModifier": 1,
 		"maintenance": 0,
 		"uniques": [
-		        "Destroyed when the city is captured <hidden from users>",
-		        "Cannot be purchased",
+				"Destroyed when the city is captured <hidden from users>",
+				"Cannot be purchased",
 				"Unbuildable <hidden from users>",
-			    "Unavailable <hidden from users>"
+				"Unavailable <hidden from users>"
 			]
 	}
 ]
