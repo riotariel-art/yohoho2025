@@ -155,7 +155,14 @@
 
 
 
-
+ {
+				"name": "Dummy",
+				"resourceType": "Strategic",
+				"uniques": [
+				  "Stockpiled",
+				  "Cannot be traded",
+				  "Not shown on world screen"]
+	}
 
 
 
