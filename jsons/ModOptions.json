@@ -14,7 +14,7 @@
 //	  "minimalCityDistance": 5,
 	  "minimalCityDistanceOnDifferentContinents": 4
 	},
-	VictoryTypesToRemove": [
+	VictoryTypesToRemove": {
 //		"Annihilation",
 		"Scientific",
 		"Cultural",
@@ -22,7 +22,7 @@
 		"Domination",
 		"Diplomatic",
 		"Time"
-	]
+	}
   }
   
 
