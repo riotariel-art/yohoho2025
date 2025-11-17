@@ -10,7 +10,8 @@ added to almost all unit
 		"name": "Civilian",
 		"movementType": "Land"
 		"uniques": [
-			"Limited to [50] per Civilization"
+			"Limited to [50] per Civilization",
+      "Automation is a primary action"
 			]
 	},
 	{
