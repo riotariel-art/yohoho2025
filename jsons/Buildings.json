@@ -65,7 +65,7 @@
 		"name": "Espionage Recruitment Office",
 		"cost": 0,
 		"uniques": [
-			"Only available <in cities with a [MiniCake Unlock]> <hidden from users>",
+			"Only available <in cities with a [Espionage Liaison Office]> <hidden from users>",
 			"Only available <when espionage is enabled>",
 			"Can be purchased with [Gold] [in all cities]",
 			"Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy", "Gain an extra spy",
@@ -1948,11 +1948,11 @@
 		"cost": 1,
 		"uniques": [
 
-			"[-5000 Gold      ] per every [10000] [Gold      ]<every [5] turns>",
-			"[-5000 Science   ] per every [10000] [Science   ]<every [5] turns>",
-			"[-5000 Culture   ] per every [10000] [Culture   ]<every [5] turns>",
-			"[-5000 Faith     ] per every [10000] [Faith     ]<every [5] turns>",
-			"[-5000 Happiness ] per every [10000] [Happiness ]<every [5] turns>",
+			"[-10000 Gold] per every [10000] [Gold]<every [1] turns>",
+			"[-500 Science] per every [500] [Science]<every [1] turns>",
+			"[-500 Culture] per every [500] [Culture]<every [1] turns>",
+			"[-500 Faith] per every [500] [Faith]<every [1] turns>",
+			"[-500 Happiness] per every [500] [Happiness]<every [1] turns>",
 
 			"May not generate great prophet equivalents naturally",
 			"Enables embarkation for land units <before the [Classical era]>",
