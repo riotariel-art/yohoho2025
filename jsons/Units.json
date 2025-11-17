@@ -742,9 +742,11 @@
 	"cost": 99,
 	"hurryCostModifier": 99,
 	"uniques": [
-	  "May travel on Water tiles without embarking",			 //xsa//added hovering
-			"Never appears as a Barbarian unit"
-			"May Paradrop to [All] tiles up to [20] tiles away", 
+	    "Automation is a primary action",
+
+    	"May travel on Water tiles without embarking",			 //xsa//added hovering
+		"Never appears as a Barbarian unit"
+		"May Paradrop to [All] tiles up to [20] tiles away", 
 		"Limited to [1] per Civilization <hidden from users>",
 		"Uncapturable",
 		"Never appears as a Barbarian unit",
